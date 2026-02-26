@@ -1,1 +1,12 @@
-
+- alpha_boxplot.R                    # Plot Alpha diversity results as boxplots
+- alpha_rare_curve.R                 # Plot Alpha rarefaction curves
+- beta_pcoa.R                        # Beta diversity principal coordinate analysis
+- calculate_cpm.py                   # Calculate taxonomic classification CPM abundance
+- calculate_rpkm.py                  # Calculate functional gene RPKM abundance
+- gene_rpkm_boxplot.R                # Plot functional gene RPKM abundance boxplots
+- merge.py                           # Merge all individual sample results
+- network_plot.R                     # Plot OTU network diagrams
+- otutab_rare.R                      # OTU table rarefaction
+- ParallelShellExecutor.py           # Multi-threaded task processing script
+- tax_stackplot.R                    # Plot taxonomic composition stacked bar charts
+- tax_statistics.py                  # Statistical analysis of taxonomic classification results

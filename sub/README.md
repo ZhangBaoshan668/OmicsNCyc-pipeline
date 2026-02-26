@@ -1,6 +1,6 @@
 ## Files description
 
-- alpha_boxplot.R                    # Plot Alpha diversity results as boxplots
+- alpha_boxplot.R # Plot Alpha diversity results as boxplots
 - alpha_rare_curve.R                 # Plot Alpha rarefaction curves
 - beta_pcoa.R                        # Beta diversity principal coordinate analysis
 - calculate_cpm.py                   # Calculate taxonomic classification CPM abundance

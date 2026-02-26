@@ -11,7 +11,7 @@ To accurately analyze microbially driven nitrogen cycling, current databases and
 Files description:
 
 - README.md # Introduction and install
-- blast # Directory for ·BLAST· functional gene index files
+- blast # Directory for `BLAST` functional gene index files
 - docs # Wiki tutorial
 
 For Illumina or BGI-seq next-generation sequencing amplicon

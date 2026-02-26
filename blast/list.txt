@@ -1,0 +1,10 @@
+napB	162
+narG	1087
+narH	500
+narI	239
+nirK	476
+nirS	560
+norB	585
+norC	202
+nosZ	646
+napA	793

@@ -2,3 +2,6 @@
 Version：v1.0.0
 
 Update：2026/02/26
+
+## Background
+

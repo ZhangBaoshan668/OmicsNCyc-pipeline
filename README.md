@@ -15,24 +15,9 @@ Files description:
 - database      # Directory for `DIAMOND` functional gene index and reference database files
 - software      # Directory for analysis software used in the pipeline
 - sub           # Directory for all Python and R scripts used in the pipeline
-- nitrogen_rpkm.py                   # Main script file
+- `nitrogen_rpkm.py`                   # Main script file
 
-For Illumina or BGI-seq next-generation sequencing amplicon
-- pipeline.sh # Command-line analysis for Windows and Linux
-- pipeline_mac.sh # Command-line analysis for MacOS
-- result/ # Example result data
-- seq # short-read sequencing amplicon
-- result/Diversity.Rmd # Interactive diversity analysis in R and output reproducible report in HTML format
-- qiime2 # Using QIIME 2 analysis amplicon data 
-- Accu16S_ITS # Absolute quantify amplicon analysis script
-- advanced #
-
-For PacBio or Nanopore third-generation long-read sequencing amplicon
-- PacBio # Pipeline for PacBio long-read amplicon sequencing analysis
-- Nanopore # Pipeline for Nanopore long-read amplicon sequencing analysis
-- Mock # Synthetic community sequencing by Illumina and Pacbio for compare short and long amplicon
-- snakemake # Pipeline for long-read sequencing amplicon
-
+## What can we do?
 
 
 

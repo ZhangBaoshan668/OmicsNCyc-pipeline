@@ -24,7 +24,7 @@ Files description:
 - Accurate identification of N-cycling genes using gene-specific thresholds to minimize false positives;
 - Analysis of a single N-cycling gene completes within five minutes.
 
-![image](https://github.com/ABU789456/Figure/fig1.jpg)
+![Figure 1](https://raw.githubusercontent.com/ABU789456/OmicsNCyc-pipeline/main/Figure/fig1.jpg)
 
 **Figure 1. OmicsNCyc workflow. (A) Flowchart of major steps for NCycTaxDB construction. (B) Schematic of the data analysis workflow for nitrogen cycling functional genes. (C) Schematic overview of statistical and visual analyses via command-line or online web-platform modes of OmicsNCyc.**
 

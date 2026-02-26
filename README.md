@@ -10,9 +10,12 @@ To accurately analyze microbially driven nitrogen cycling, current databases and
 
 Files description:
 
-- README.md # Introduction and install
-- blast # Directory for `BLAST` functional gene index files
-- docs # Wiki tutorial
+- README.md     # Introduction and install
+- blast         # Directory for `BLAST` functional gene index files
+- database      # Directory for `DIAMOND` functional gene index and reference database files
+- software      # Directory for analysis software used in the pipeline
+- sub           # Directory for all Python and R scripts used in the pipeline
+- nitrogen_rpkm.py                   # Main script file
 
 For Illumina or BGI-seq next-generation sequencing amplicon
 - pipeline.sh # Command-line analysis for Windows and Linux

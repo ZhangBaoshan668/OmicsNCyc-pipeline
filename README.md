@@ -110,6 +110,8 @@ Files description:
     # Downdoald OmicsNCyc pipeline from github.
     git clone https://github.com/ZhangBaoshan668/OmicsNCyc-pipeline.git
 
+**Note: `fatal: unable to access` can retry.**
+
 ## Introduction to OmicsNCyc pipeline parameters
 
     # Parameter explanation

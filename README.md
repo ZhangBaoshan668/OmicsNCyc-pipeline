@@ -132,7 +132,7 @@ Files description:
     -e, --evalue EVALUE   E-value threshold for DIAMOND blastx. Default is 1e-5
     -v, --version         display version and author information and exit
 
-
+    **Note: The parameters -i, -l, -g, -m and -o are essential for the execution of the main script. The parameters -t, -d, -q, -c and -e are set as default values in the script, and their settings can also be adjusted according to specific needs.**
 
 
 

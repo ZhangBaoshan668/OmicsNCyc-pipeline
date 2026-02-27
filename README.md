@@ -147,7 +147,7 @@ Files description:
     touch list.txt gene.txt metadata.txt
   
 - **The `list.txt` file contains two columns of information. The first column represents the original sample number, and the second column represents the renamed sample number. The two columns are separated by a `tab`.**
-
+![Figure 3](https://raw.githubusercontent.com/ABU789456/Figure/main/fig3.jpg)
 
 
 

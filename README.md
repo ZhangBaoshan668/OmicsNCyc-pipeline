@@ -40,3 +40,32 @@ Files description:
 ![Figure 2](https://raw.githubusercontent.com/ABU789456/Figure/main/fig2.jpg)
 
 **Figure 2. Representative publication-ready visualizations.**
+
+## Install OmicsNCyc
+(1) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

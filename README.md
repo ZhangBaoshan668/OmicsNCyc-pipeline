@@ -71,7 +71,7 @@ Files description:
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
     conda config --set show_channel_urls yes
 
-    # Create Conda environment
+    # Create and activate OmicsNCyc environment
     conda create -n OmicsNCyc
     conda activate OmicsNCyc
 
@@ -101,14 +101,36 @@ Files description:
 
 ### Install OmicsNCyc
 
-Install OmicsNCyc pipeline from github.
+    # Create a new directory named “OmicsNCyc” in your home directory. 
+    mkdir OmicsNCyc
+    cd OmicsNCyc
 
-    # 
+    # Downdoald OmicsNCyc pipeline from github.
+    git clone https://github.com/ABU789456/OmicsNCyc-pipeline.git
 
+## Introduction to OmicsNCyc pipeline parameters
 
-
-
-
+    # Parameter explanation
+    cd OmicsNCyc-pipeline
+    
+    python3 nitrogen_rpkm.py -h
+    usage: nitrogen_rpkm.py [-h] [-i CID] [-l LIS] [-g GENE] [-o OUTDIR] [-m GROUP] [-t THREADS] [-d ID] [-q QUERY] [-c CLUSTER] [-e EVALUE] [-v]
+    
+    options:
+    -h, --help            show this help message and exit
+    -i, --cid CID         input directory 
+    -l, --lis LIS         sample list
+    -g, --gene GENE       gene list
+    -o, --outdir OUTDIR   output directory
+    -m, --group GROUP     group list
+    -t, --threads THREADS
+                        number of threads to use for Parallel. Default is 10
+    -d, --id ID           identity threshold for DIAMOND blastx. Default is 75
+    -q, --query QUERY     query coverage threshold for DIAMOND blastx. Default is 75
+    -c, --cluster CLUSTER
+                        cluster threshold for USEARCH cluster_fast. Default is 0.97
+    -e, --evalue EVALUE   E-value threshold for DIAMOND blastx. Default is 1e-5
+    -v, --version         display version and author information and exit
 
 
 

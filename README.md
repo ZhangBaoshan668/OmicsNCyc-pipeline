@@ -19,7 +19,7 @@ Files description:
 
 ## What can we do?
 
-- Comprehensive analysis and visualization of N-cycling functional genes, including 71 genes such as nifH, amoA (bacterial and archaeal), nirK/nirS, nosZ, and ureC;
+- Comprehensive analysis and visualization of N-cycling functional genes, including 71 genes such as *nifH*, amoA (bacterial and archaeal), nirK/nirS, nosZ, and ureC;
 - From raw sequencing data to functional gene abundance tables and microbial community profiles;
 - Accurate identification of N-cycling genes using gene-specific thresholds to minimize false positives;
 - Analysis of a single N-cycling gene completes within five minutes.

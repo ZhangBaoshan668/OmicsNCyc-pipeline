@@ -43,7 +43,7 @@ Files description:
 
 ## Install OmicsNCyc
 
-- Recommended system: `Linux` or Windows子系统`Ubuntu 20.04.4 LTS`
+- **Recommended system**: `Linux` or `Ubuntu 20.04.4 LTS`
 
 
 

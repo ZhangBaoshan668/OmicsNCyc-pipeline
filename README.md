@@ -133,6 +133,37 @@ Files description:
     -v, --version         display version and author information and exit
 **Note: The parameters -i, -l, -g, -m and -o are essential for the execution of the main script. The parameters -t, -d, -q, -c and -e are set as default values in the script, and their settings can also be adjusted according to specific needs.**
 
+## Quick Start
+
+- Create work directory
+    mkdir example
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

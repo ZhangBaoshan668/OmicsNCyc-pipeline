@@ -108,7 +108,7 @@ Files description:
     cd OmicsNCyc
 
     # Downdoald OmicsNCyc pipeline from github.
-    git clone https://github.com/ABU789456/OmicsNCyc-pipeline.git
+    git clone https://github.com/ZhangBaoshan668/OmicsNCyc-pipeline.git
 
 ## Introduction to OmicsNCyc pipeline parameters
 

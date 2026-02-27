@@ -1,0 +1,6 @@
+"Group","Node","Degree","Betweenness","Closeness","Eigenvector","Modularity","Zi","Pi","Role"
+"Control","OTU_124",2,0,0.5,1,1,0,0,"Peripheral"
+"Control","OTU_332",1,0,1,0,2,0,0,"Peripheral"
+"Control","OTU_40",2,0,0.5,1,1,0,0,"Peripheral"
+"Control","OTU_412",1,0,1,0,2,0,0,"Peripheral"
+"Control","OTU_552",2,0,0.5,1,1,0,0,"Peripheral"

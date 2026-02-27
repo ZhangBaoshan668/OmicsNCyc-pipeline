@@ -1,0 +1,8 @@
+"Group","Source","Target","Weight","Correlation","Direction"
+"PRE","OTU_189","OTU_262",1,1,"Positive"
+"PRE","OTU_189","OTU_504",1,1,"Positive"
+"PRE","OTU_189","OTU_506",1,1,"Positive"
+"PRE","OTU_262","OTU_504",1,1,"Positive"
+"PRE","OTU_262","OTU_506",1,1,"Positive"
+"PRE","OTU_504","OTU_506",1,1,"Positive"
+"PRE","OTU_576","OTU_62",1,1,"Positive"

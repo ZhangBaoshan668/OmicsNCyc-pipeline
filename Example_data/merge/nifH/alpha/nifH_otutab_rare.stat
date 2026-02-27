@@ -1,0 +1,14 @@
+      5004  Reads (5004)
+        18  Samples
+        19  OTUs
+
+       342  Counts
+       239  Count  =0  (69.9%)
+         7  Count  =1  (2.0%)
+        71  Count >=10 (20.8%)
+
+         1  OTUs found in all samples (5.3%)
+         1  OTUs found in 90% of samples (5.3%)
+         2  OTUs found in 50% of samples (10.5%)
+
+Sample sizes: min 278, lo 278, med 278, mean 278.0, hi 278, max 278

@@ -1,0 +1,4 @@
+"Group","Nodes","Edges","Average_degree","Modularity","Transitivity","Diameter","Average_path_length"
+"PRE",6,7,2.33333333333333,0.244897959183673,1,1,1
+"Control",5,4,1.6,0.375,1,1,1
+"sediment",4,6,3,3.88578058618805e-16,1,1,1

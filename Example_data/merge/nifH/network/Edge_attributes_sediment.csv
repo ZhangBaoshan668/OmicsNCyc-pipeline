@@ -1,0 +1,7 @@
+"Group","Source","Target","Weight","Correlation","Direction"
+"sediment","OTU_412","OTU_582",1,1,"Positive"
+"sediment","OTU_412","OTU_62",1,1,"Positive"
+"sediment","OTU_412","OTU_620",1,1,"Positive"
+"sediment","OTU_582","OTU_62",1,1,"Positive"
+"sediment","OTU_582","OTU_620",1,1,"Positive"
+"sediment","OTU_62","OTU_620",1,1,"Positive"

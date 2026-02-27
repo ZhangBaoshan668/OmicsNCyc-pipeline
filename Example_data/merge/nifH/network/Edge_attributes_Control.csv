@@ -1,0 +1,5 @@
+"Group","Source","Target","Weight","Correlation","Direction"
+"Control","OTU_124","OTU_40",1,1,"Positive"
+"Control","OTU_124","OTU_552",1,1,"Positive"
+"Control","OTU_332","OTU_412",1,1,"Positive"
+"Control","OTU_40","OTU_552",1,1,"Positive"

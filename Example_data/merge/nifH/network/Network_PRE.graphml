@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_modularity" for="node" attr.name="modularity" attr.type="double"/>
+  <key id="v_Zi" for="node" attr.name="Zi" attr.type="double"/>
+  <key id="v_Pi" for="node" attr.name="Pi" attr.type="double"/>
+  <key id="v_color" for="node" attr.name="color" attr.type="string"/>
+  <key id="v_frame.color" for="node" attr.name="frame.color" attr.type="string"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <key id="e_correlation" for="edge" attr.name="correlation" attr.type="double"/>
+  <key id="e_color" for="edge" attr.name="color" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">OTU_189</data>
+      <data key="v_modularity">1</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#EA9527</data>
+      <data key="v_frame.color">#EA9527</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">OTU_262</data>
+      <data key="v_modularity">1</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#EA9527</data>
+      <data key="v_frame.color">#EA9527</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">OTU_504</data>
+      <data key="v_modularity">1</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#EA9527</data>
+      <data key="v_frame.color">#EA9527</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">OTU_506</data>
+      <data key="v_modularity">1</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#EA9527</data>
+      <data key="v_frame.color">#EA9527</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">OTU_576</data>
+      <data key="v_modularity">2</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#5ECC6D</data>
+      <data key="v_frame.color">#5ECC6D</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">OTU_62</data>
+      <data key="v_modularity">2</data>
+      <data key="v_Zi">0</data>
+      <data key="v_Pi">0</data>
+      <data key="v_color">#5ECC6D</data>
+      <data key="v_frame.color">#5ECC6D</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n1" target="n3">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#EA9527</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_weight">1</data>
+      <data key="e_correlation">1</data>
+      <data key="e_color">#5ECC6D</data>
+    </edge>
+  </graph>
+</graphml>

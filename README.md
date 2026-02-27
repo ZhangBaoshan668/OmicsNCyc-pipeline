@@ -167,7 +167,10 @@ Files description:
 
 **The `example` folder should contain the `raw_data` folder, `gene.txt`, `list.txt` and `metadata.txt`. Then, by running the main script file `nitrogen_rpkm.py` in the `example` folder, the analysis can be started.**
 
-**running**
+![Figure 6](https://raw.githubusercontent.com/ABU789456/Figure/main/fig6.jpg)
+
+    # running
+    
     python3 /your_path/nitrogen_rpkm.py -i Example_data -l list.txt -g gene.txt -m metadata.txt -o ./
 
 

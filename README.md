@@ -16,6 +16,7 @@ Files description:
 - software      # Directory for analysis software used in the pipeline
 - sub           # Directory for all Python and R scripts used in the pipeline
 - `nitrogen_rpkm.py`                   # Main script file
+- gene length.txt    # Reference sequence length information of nitrogen cycle functional genes
 
 ## What can we do?
 
@@ -158,7 +159,7 @@ Files description:
 
 ![Figure 5](https://raw.githubusercontent.com/ABU789456/Figure/main/fig5.jpg)
 
-
+**Note: The length information of the reference gene sequence is obtained from the `gene length.txt` file.**
 
 
 

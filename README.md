@@ -41,9 +41,9 @@ Files description:
 
 **Figure 2. Representative publication-ready visualizations.**
 
-## Install OmicsNCyc
+## Install OmicsNCyc (`Linux` or `Ubuntu 20.04.4 LTS`)
 
-- **Recommended system**: `Linux` or `Ubuntu 20.04.4 LTS`
+### Install Conda
 
 
 

@@ -28,6 +28,15 @@ Files description:
 
 **Figure 1. OmicsNCyc workflow. (A) Flowchart of major steps for NCycTaxDB construction. (B) Schematic of the data analysis workflow for nitrogen cycling functional genes. (C) Schematic overview of statistical and visual analyses via command-line or online web-platform modes of OmicsNCyc.**
 
+## Main Features
+  + Preprocessing and normalization of nitrogen cycling functional gene sequencing data
+  + Functional gene abundance visualization
+  + Taxonomic abundance visualization
+  + Alpha diversity
+  + Beta diversity
+  + Differential abundance test
+  + Network analysis
+
 ![Figure 2](https://raw.githubusercontent.com/ABU789456/Figure/main/fig2.jpg)
 
 **Figure 2. Representative publication-ready visualizations.**

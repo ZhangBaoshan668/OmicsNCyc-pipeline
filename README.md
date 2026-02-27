@@ -135,8 +135,16 @@ Files description:
 
 ## Quick Start
 
-- Create work directory
+    # Create work directory
     mkdir example
+    cd example
+
+    # Create the "raw_data" folder in the working directory and the folder must be named "raw_data".
+    # In the "raw_data" folder, only the single-end sequencing data of high-throughput sequencing should be stored, such as "_1.fastq.gz" or "_1.fq.gz".
+    mkdir raw_data
+
+    # Create "list.txt", "gene.txt", and "metadata.txt" file
+    touch list.txt gene.txt metadata.txt
   
 
 

@@ -171,13 +171,15 @@ Files description:
 
     # running
     
-    python3 /your_path/nitrogen_rpkm.py -i Example_data -l list.txt -g gene.txt -m metadata.txt -o ./
+    python3 /your_path/nitrogen_rpkm.py -i example -l list.txt -g gene.txt -m metadata.txt -o ./
 
+**Note: The main script must be run from the path of the `example` folder.**
 
+## FAQ & Contributing
 
+Please report errors and questions on Github [Issues](https://github.com/ABU789456/OmicsNCyc-pipeline/issues).
 
-
-
+Any contribution via [Pull requests](https://github.com/ABU789456/OmicsNCyc-pipeline/pulls) will be appreciated.
 
 
 

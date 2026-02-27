@@ -45,10 +45,17 @@ Files description:
 
 ### Install Conda
 
-mkdir -p ~/miniconda3
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-rm ~/miniconda3/miniconda.sh
+    # Create a new directory named “miniconda3” in your home directory.
+    mkdir -p ~/miniconda3
+    
+    # Download the Linux Miniconda installation script for your chosen chip architecture and save the script as `miniconda.sh` in the miniconda3 directory.
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+    
+    # Run the `miniconda.sh` installation script in silent mode using bash.
+    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+
+    # Remove the `miniconda.sh` installation script file after installation is complete.
+    rm ~/miniconda3/miniconda.sh
 
 
 

@@ -19,7 +19,7 @@ Files description:
 
 ## What can we do?
 
-- Comprehensive analysis and visualization of N-cycling functional genes, including 71 genes such as *nifH*, amoA (bacterial and archaeal), nirK/nirS, nosZ, and ureC;
+- Comprehensive analysis and visualization of N-cycling functional genes, including 71 genes such as *nifH*, *amoA* (bacterial and archaeal), *nirK*/*nirS*, *nosZ*, and *ureC*;
 - From raw sequencing data to functional gene abundance tables and microbial community profiles;
 - Accurate identification of N-cycling genes using gene-specific thresholds to minimize false positives;
 - Analysis of a single N-cycling gene completes within five minutes.
@@ -28,3 +28,6 @@ Files description:
 
 **Figure 1. OmicsNCyc workflow. (A) Flowchart of major steps for NCycTaxDB construction. (B) Schematic of the data analysis workflow for nitrogen cycling functional genes. (C) Schematic overview of statistical and visual analyses via command-line or online web-platform modes of OmicsNCyc.**
 
+![Figure 2](https://raw.githubusercontent.com/ABU789456/Figure/main/fig2.jpg)
+
+**Figure 2. Representative publication-ready visualizations.**

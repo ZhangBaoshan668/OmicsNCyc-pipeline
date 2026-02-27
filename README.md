@@ -17,6 +17,7 @@ Files description:
 - sub           # Directory for all Python and R scripts used in the pipeline
 - `nitrogen_rpkm.py`                   # Main script file
 - gene length.txt    # Reference sequence length information of nitrogen cycle functional genes
+- Example_data   # Example dataset
 
 ## What can we do?
 
@@ -140,6 +141,9 @@ Files description:
     mkdir example
     cd example
 
+    # Enter Conda environment
+    conda activate OmicsNCyc
+
     # Create the "raw_data" folder in the working directory and the folder must be named "raw_data".
     # In the "raw_data" folder, only the single-end sequencing data of high-throughput sequencing should be stored, such as "_1.fastq.gz" or "_1.fq.gz".
     mkdir raw_data
@@ -161,8 +165,10 @@ Files description:
 
 **Note: The length information of the reference gene sequence is obtained from the `gene length.txt` file.**
 
+**The `example` folder should contain the `raw_data` folder, `gene.txt`, `list.txt` and `metadata.txt`. Then, by running the main script file `nitrogen_rpkm.py` in the `example` folder, the analysis can be started.**
 
-
+**running**
+    python3 /your_path/nitrogen_rpkm.py -i Example_data -l list.txt -g gene.txt -m metadata.txt -o ./
 
 
 

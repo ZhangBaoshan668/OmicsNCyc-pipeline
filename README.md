@@ -41,9 +41,9 @@ Files description:
 
 **Figure 2. Representative publication-ready visualizations.**
 
-## Install OmicsNCyc (`Linux` or `Ubuntu 20.04.4 LTS`)
+## Install
 
-### Install Conda
+### Install Conda and R package
 
     # Create a new directory named “miniconda3” in your home directory.
     mkdir -p ~/miniconda3
@@ -99,10 +99,11 @@ Files description:
     ## Exit R environment
     q()
 
+### Install OmicsNCyc
 
+Install OmicsNCyc pipeline from github.
 
-
-
+    # 
 
 
 

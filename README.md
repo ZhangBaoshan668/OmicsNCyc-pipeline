@@ -26,7 +26,7 @@ Files description:
 - Accurate identification of N-cycling genes using gene-specific thresholds to minimize false positives;
 - Analysis of a single N-cycling gene completes within five minutes.
 
-![Figure 1](https://raw.githubusercontent.com/ABU789456/Figure/main/fig1.jpg)
+![Figure 1](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig1.jpg)
 
 **Figure 1. OmicsNCyc workflow. (A) Flowchart of major steps for NCycTaxDB construction. (B) Schematic of the data analysis workflow for nitrogen cycling functional genes. (C) Schematic overview of statistical and visual analyses via command-line or online web-platform modes of OmicsNCyc.**
 
@@ -39,7 +39,7 @@ Files description:
 + Differential abundance test
 + Network analysis
 
-![Figure 2](https://raw.githubusercontent.com/ABU789456/Figure/main/fig2.jpg)
+![Figure 2](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig2.jpg)
 
 **Figure 2. Representative publication-ready visualizations.**
 
@@ -153,21 +153,21 @@ Files description:
   
 - **The `list.txt` file contains two columns of information. The first column represents the original sample number, and the second column represents the renamed sample number. The two columns are separated by a `tab`.**
 
-![Figure 3](https://raw.githubusercontent.com/ABU789456/Figure/main/fig3.jpg)
+![Figure 3](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig3.jpg)
 
 - **The `metadata.txt` file must have a header row, with the columns labeled as `SampleID` and `Group`. The content of the header cannot be changed and it should contain two columns of information. The first column contains the renamed sample number, and the second column contains the sample grouping information. The two columns are separated by a `tab`.**
 
-![Figure 4](https://raw.githubusercontent.com/ABU789456/Figure/main/fig4.jpg)
+![Figure 4](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig4.jpg)
 
 - **The `gene.txt` file contains two columns of information. The first column represents the gene name, and the second column represents the length of the gene reference sequence. The two columns are separated by a `tab`.**
 
-![Figure 5](https://raw.githubusercontent.com/ABU789456/Figure/main/fig5.jpg)
+![Figure 5](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig5.jpg)
 
 **Note: The length information of the reference gene sequence is obtained from the `gene length.txt` file.**
 
 **The `example` folder should contain the `raw_data` folder, `gene.txt`, `list.txt` and `metadata.txt`. Then, by running the main script file `nitrogen_rpkm.py` in the `example` folder, the analysis can be started.**
 
-![Figure 6](https://raw.githubusercontent.com/ABU789456/Figure/main/fig6.jpg)
+![Figure 6](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig6.jpg)
 
     # running
     
@@ -177,9 +177,9 @@ Files description:
 
 ## FAQ & Contributing
 
-Please report errors and questions on Github [Issues](https://github.com/ABU789456/OmicsNCyc-pipeline/issues).
+Please report errors and questions on Github [Issues](https://github.com/ZhangBaoshan668/OmicsNCyc-pipeline/issues).
 
-Any contribution via [Pull requests](https://github.com/ABU789456/OmicsNCyc-pipeline/pulls) will be appreciated.
+Any contribution via [Pull requests](https://github.com/ZhangBaoshan668/OmicsNCyc-pipeline/pulls) will be appreciated.
 
 
 

@@ -48,17 +48,56 @@ Files description:
     # Create a new directory named “miniconda3” in your home directory.
     mkdir -p ~/miniconda3
     
-    # Download the Linux Miniconda installation script for your chosen chip architecture and save the script as `miniconda.sh` in the miniconda3 directory.
+    # Download the Linux Miniconda installation script for your chosen chip architecture and save the script as “miniconda.sh” in the miniconda3 directory.
     wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
     
-    # Run the `miniconda.sh` installation script in silent mode using bash.
+    # Run the “miniconda.sh” installation script in silent mode using bash.
     bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 
-    # Remove the `miniconda.sh` installation script file after installation is complete.
+    # Remove the “miniconda.sh” installation script file after installation is complete.
     rm ~/miniconda3/miniconda.sh
 
+    # After installing, close and reopen your terminal application or refresh it by running the following command:
+    source ~/miniconda3/bin/activate
 
+    # Then, initialize conda on all available shells by running the following command:
+    conda init --all
 
+    # Add frequently used channels
+    conda config --add channels bioconda
+    conda config --add channels conda-forge
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+    conda config --set show_channel_urls yes
+
+    # Create Conda environment
+    conda create -n OmicsNCyc
+    conda activate OmicsNCyc
+
+    # Conda install R
+    conda install r-base=4.4.1
+
+    # Install R package
+    conda install r-BiocManager
+    conda install r-ggplot2
+    conda install r-devtools
+    conda install r-vegan
+    conda install r-igraph
+    conda install r-dplyr
+    conda install r-Hmisc
+    conda install r-optparse
+    conda install r-purrr
+    conda install r-ggpubr
+    conda install r-ggprism
+
+    # Install amplicon package
+    ## Enter R environment
+    R
+    library(devtools)
+    install_github("microbiota/amplicon")
+    ## Exit R environment
+    q()
 
 
 

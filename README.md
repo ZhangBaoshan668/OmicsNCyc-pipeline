@@ -171,7 +171,7 @@ Files description:
 
 ![Figure 6](https://raw.githubusercontent.com/ZhangBaoshan668/Figure/main/fig6.jpg)
 
-    # running
+    # Running with default parameters
     
     python3 /your_path/nitrogen_rpkm.py -i example -l list.txt -g gene.txt -m metadata.txt -o ./
 

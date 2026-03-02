@@ -43,6 +43,10 @@ Files description:
 
 **Figure 2. Representative publication-ready visualizations.**
 
+## Web application platform
+
+- **https://omicsncyc.shinyapps.io/omicsncyc/**
+
 ## Install
 
 ### Install Conda and R package

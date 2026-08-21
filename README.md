@@ -181,6 +181,14 @@ Files description:
 
 **Note: The main script must be run from the path of the `example` folder.**
 
+## Customizing thresholds for *AOA_amoA*
+
+    # step 1: Check default thresholds in supplementary table
+    grep AOA_amoA threshold_table_71genes.txt
+    AOA_amoA	81	100.00%	100.00%	100.00%	100.00%	100.00%
+    # Step 2: Modify thresholds via command-line flags
+    python3 /your_path/nitrogen_rpkm.py -i example -l list.txt -g gene.txt -m metadata.txt -o ./ -d 81 
+
 ## FAQ & Contributing
 
 Please report errors and questions on Github [Issues](https://github.com/ZhangBaoshan668/OmicsNCyc-pipeline/issues).

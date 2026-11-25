@@ -1,10 +1,13 @@
 # OmicsNCyc：An integrated pipeline for fast analysis of nitrogen cycle functional genes with a curated database
 
-> **📝 Citation**
+**📝 Citation**
 
 > If you use OmicsNCyc in your research, please cite our paper:
-
 > **Zhang, B., Kuang, C., Liu, X., Wang, Z., Wu, J., & Hong, Y. (2026).** OmicsNCyc: An Integrated Pipeline for Fast Analysis of Nitrogen Cycle Functional Genes With a Curated Database. *Molecular Ecology Resources*. https://doi.org/10.1111/1755-0998.70240
+        
+        
+        
+        
 
 Version：v1.0.0
 

@@ -6,6 +6,10 @@
 
 > **Zhang, B., Kuang, C., Liu, X., Wang, Z., Wu, J., & Hong, Y. (2026).** OmicsNCyc: An Integrated Pipeline for Fast Analysis of Nitrogen Cycle Functional Genes With a Curated Database. *Molecular Ecology Resources*, 26(8), e70240. https://doi.org/10.1111/1755-0998.70240
         
+        .
+        
+        
+        
         
         
         
